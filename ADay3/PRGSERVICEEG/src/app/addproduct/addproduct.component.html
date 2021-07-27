@@ -1,0 +1,8 @@
+<p>addproduct works!</p>
+<form>
+    Enter Product Id<input type="number" id="pid" name="prodid"[(ngModel)]="getprodinfo.pid"><br><br>
+    Enter Product Name<input type="text" id="pname" name="prodname"[(ngModel)]="getprodinfo.pname"><br><br>
+    Enter Product Price<input type="number" id="price" name="prodprice"[(ngModel)]="getprodinfo.price"><br><br>
+    Enter Product Quantity<input type="number" id="quantity" name="prodquantity"[(ngModel)]="getprodinfo.quantity"><br><br>
+    <button class="btn btn-primary" (click)="addProducts()">Add</button>
+</form>

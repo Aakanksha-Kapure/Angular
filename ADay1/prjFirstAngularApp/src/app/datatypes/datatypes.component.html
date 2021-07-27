@@ -1,0 +1,22 @@
+<p>datatypes works!</p>
+<div class="data">
+    First Name:{{name}}<br/>
+    Age:{{age}}<br/>
+    Hobbies:{{hobbies}}<br>
+    Marks:{{marks}}<br>
+    Boolean:{{Istrue}}<br>
+    Tuple:{{tupleval}}<br>
+    Any:{{dynamicvalue}}<br>
+    Object:
+    FatherName:{{student.fathername}}
+    Address:{{student.Address}}
+    <br>
+    JSOn:{{student|json}}
+</div>
+<hr>
+<img src="assests/images/ball.jpg" alt="BAll" height="70" width="70"/>
+<hr>
+<img src="{{picture}}" alt="DOLL" height="50" width="50"/>
+<hr>
+<h2>Propery Binding</h2>
+<img [src]="picture" alt="DOLL">
